@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>Main Page</h1>
+      <h1>UNITH Photo Gallery</h1>
       <div className="grid">
         {paginatedData.map(([id, item]) => (
           <div
